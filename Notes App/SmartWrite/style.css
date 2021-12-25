@@ -1,0 +1,165 @@
+body /*used to insert background image to the body*/
+{
+    background-image:url("3.jpg");
+    bacgroundimage-repeat: no-repeat;
+    background-size:cover;
+}
+
+#space /*used to design div section in all the pages except for homepage*/
+{
+    width: 1573px;
+    height: 98%;
+    background-color:white;
+    padding: 1px 16px;
+    position: fixed;
+    overflow: auto;
+    opacity: 0.5;
+}
+
+#space a /*used to design <a> in the writtenNotes page where <a> is all the available notes to be displayed*/
+{
+    display: block;
+    color: black;
+    font-size:30px;
+    text-decoration:none;
+    font-family:Arial;
+}
+
+
+#space a:hover:not(.active) /*used to design <a> in the writtenNotes page where a is all the available notes to be displayed*/
+{
+    background-color:#1a1c20;
+    color: white;
+}
+
+#space2 /*used to div section in homepage where the image poster is displayed*/
+{
+    width: 1573px;
+    height: 98%;
+    background-color:white;
+    padding: 1px 16px;
+    position: fixed;
+    overflow: auto;
+}
+
+h1 /*used to design header 1*/
+{
+    color:black;
+    font-family:"Arial Black";
+    font-size:80px;
+}
+
+h2/*used to design header 2*/
+{
+    color:black;
+    font-family:"Arial Black";
+    font-size:50px;
+}
+
+p /*used to design paragraph*/
+{
+    color:black;
+    font-family:Arial;
+    font-size:30px;
+}
+
+
+#menu /*used to design the menu bar*/
+{
+    width:300px;
+    height:98%;
+    background-color: #1a1c20;
+    margin-left: 1605px;
+    position: fixed;
+    overflow: auto;
+}
+#menu a /*used to design the options in the menu bar*/
+{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size:30px;
+    text-align: center;
+}
+
+
+
+#menu a:hover:not(.active) /*used to design the options in the menu bar*/
+{
+    background-color: white;
+    color: black;
+
+}
+
+#image /*used to design the poster image in the home page*/
+{
+    bacgroundimage-repeat: no-repeat;
+    background-size:cover;
+    width:1570px;
+    margin-top:80px;
+}
+
+#logo /*used to design the pencil logo in the menu bar*/
+{
+    margin-top:120px;
+    margin-left:70px;
+    width:200px;
+    height:300px;
+}
+
+#delete /*used to design the delete button in display page*/
+{
+    background-color:black;
+    color: white;
+    padding: 16px 25px;
+    cursor: grab;
+    text-align: center;
+    font-family:"Arial Black";
+    font-size: 20px;
+}
+
+#delete:hover /*used to design the delete button in display page*/
+{
+    background-color:red;
+    color: white;
+}
+
+#create /*used to design the create note button in writtenNotes page*/
+{
+    background-color:black;
+    color: white;
+    padding: 16px 20px;
+    cursor: grab;
+    text-align: center;
+    font-family:"Arial Black";
+    font-size: 20px;
+}
+
+#create:hover /*used to design the create note button in writtenNotes page*/
+{
+    background-color:green;
+    color: white;
+}
+
+label
+{
+    font-family:Arial;
+    font-size:30px
+}
+
+textarea
+{
+    wrap:hard;
+    resize:none;
+    font-size:30px;
+    font-family:Arial;
+}
+#title
+{
+    font-size:30px;
+    font-family:Arial;
+}
+
+
+
